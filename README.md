@@ -1,51 +1,36 @@
 <h1> Api de Livre</h1>
+<br>
+<br>
 
 ## 📋 <a name="table">Sommaire</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🤸 [Quick Start](#quick-start)
-4. 🤸 [API REST Exportées](#api-rest-exportées)
+1. [Introduction](#introduction)
+2. [Tech Stack](#tech-stack)
+3. [Quick Start](#quick-start)
+4. [API REST Exportées](#api-rest-exportées)
 
 
 
-## <a name="introduction">Introduction</a>
+## <a name="introduction"> 1 - Introduction</a>
+un back-end simple de gestion de livres (CRUD) en utilise node.js , express et mysql (sans persistance)
 
-- Next.js
-- Three.js
-- Framer Motion
-- Tailwind CSS
+## <a name="tech-stack"> 2 - Tech Stack</a>
 
-## <a name="tech-stack">Tech Stack</a>
-
-- Next.js
-- Three.js
-- Framer Motion
-- Tailwind CSS
+- Node.js
+- Express
+- MySql2
 
 
-| Methode | URLs | Action |
-| --- | --- | --- |
-| git status | List | List |
-| git status | List | List |
-| git status | List | List |
-| git status | List | List |
-| git status | List | List |
 
-## <a name="quick-start"> Quick Start</a>
+## <a name="quick-start"> 3 - Quick Start</a>
 
-## Project setup
+Veuillez créer un nom de base « book » et créer la table « livre » à l'aide du script ci-dessous.
+
+## DATA BASE
+
 ```
-npm install
-```
+CREATE DATABASE book
 
-### Run
-```
-node server.js
-```
-
-### DATA BASE
-```
 CREATE TABLE `livre` (
   `id` int NOT NULL AUTO_INCREMENT,
   `titre` varchar(45) NOT NULL,
@@ -55,3 +40,37 @@ CREATE TABLE `livre` (
   UNIQUE KEY `titre_UNIQUE` (`titre`)
 ) 
 ```
+
+## Cloning the Repository
+
+```bash
+git clone https://github.com/HoussamBouajjioune/Back-end-Livre.git
+cd Back-end-Livre
+```
+
+## Project setup
+
+Installez les dépendances du projet en utilisant npm :
+
+```
+npm install
+```
+
+### Run
+```
+node server.js
+```
+
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur ou postman(recommander).
+
+
+
+## <a name="api-rest-exportées"> 4 - API REST Exportées</a>
+
+| Methode | URLs | Action |
+| --- | --- | --- |
+| get | ``` /api/livre/all ``` | afficher tous les livres |
+| get | ``` /api/livre/:id ``` | afficher un livre specifique |
+| post | ``` /api/livre/add ``` | ajouter un livre |
+| put | ``` /api/livre/update/:id ``` | modifier un livre |
+| delete | ``` /api/livre/delete/:id ``` | supprimer un livre |
