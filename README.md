@@ -22,9 +22,9 @@ Un Back-End simple de gestion de livres (CRUD) en utilise Node.js , Express et M
 
 ## <a name="quick-start"> 3 - Quick Start</a>
 
-Veuillez créer un nom de base « book » et créer la table « livre » à l'aide du script ci-dessous.
+Veuillez créer un base de données sous nom « book » et créer la table « livre » à l'aide du script ci-dessous.
 
-## DATA BASE
+# DATA BASE
 
 ```
 CREATE DATABASE book
@@ -39,17 +39,18 @@ CREATE TABLE `livre` (
 ) 
 ```
 
-## Cloning the Repository
+# Cloning the Repository
 
 ```bash
 git clone https://github.com/HoussamBouajjioune/Back-end-Livre.git
 cd Back-end-Livre
 ```
 
-## Project setup
+# Project setup
 
 Installez les dépendances du projet en utilisant npm :
 
+### Install
 ```
 npm install
 ```
