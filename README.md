@@ -1,6 +1,4 @@
 <h1> Api de Livre</h1>
-<br>
-<br>
 
 ## 📋 <a name="table">Sommaire</a>
 
@@ -12,7 +10,7 @@
 
 
 ## <a name="introduction"> 1 - Introduction</a>
-un back-end simple de gestion de livres (CRUD) en utilise node.js , express et mysql (sans persistance)
+Un Back-End simple de gestion de livres (CRUD) en utilise Node.js , Express et MySql (sans persistance)
 
 ## <a name="tech-stack"> 2 - Tech Stack</a>
 
