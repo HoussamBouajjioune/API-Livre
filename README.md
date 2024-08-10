@@ -42,8 +42,8 @@ CREATE TABLE `livre` (
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/HoussamBouajjioune/Back-end-Livre.git
-cd Back-end-Livre
+git clone https://github.com/HoussamBouajjioune/API-Livre.git
+cd API-Livre
 ```
 
 ### Project setup
